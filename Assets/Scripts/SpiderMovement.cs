@@ -25,7 +25,7 @@ public class SpiderMovement : MonoBehaviour {
 			moveDir.Set (xDir, 0f, 0f);
 //			Rotat (moveDir);
 			if (Physics.Raycast (transform.position, transform.up)) {
-				moveDir = chooseDirection ();
+//				moveDir = chooseDirection();
 				transform.rotation = Quaternion.LookRotation (moveDir);
 			}
 		}
