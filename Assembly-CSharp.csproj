@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\SnapToController.cs" />
      <Compile Include="Assets\Scripts\SpiderDeath.cs" />
      <Compile Include="Assets\Scripts\SpiderMovement.cs" />
+     <Compile Include="Assets\Scripts\SpiderSpawner.cs" />
      <Compile Include="Assets\Scripts\TorchBurnSpider.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />

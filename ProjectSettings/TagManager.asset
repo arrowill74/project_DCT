@@ -8,6 +8,7 @@ TagManager:
   - InteractionObject
   - Controller
   - Enemy
+  - tomb
   layers:
   - Default
   - TransparentFX

@@ -11,8 +11,12 @@ public class SpiderMovement : MonoBehaviour {
 	float xDir;
 	float yDir;
 	float zDir;
-
+//	Transform Tomb;
+//	UnityEngine.AI.NavMeshAgent nav;
 	void Awake(){
+//		Tomb = GameObject.FindGameObjectWithTag ("tomb").transform;
+//		nav = GetComponent<UnityEngine.AI.NavMeshAgent> ();
+
 		anim = GetComponent<Animator> ();
 		spiderRigidbody = GetComponent<Rigidbody>();
 	}
@@ -29,12 +33,12 @@ public class SpiderMovement : MonoBehaviour {
 				transform.rotation = Quaternion.LookRotation (moveDir);
 			}
 		}
-
+//		nav.nextPosition =Tomb.position;
 		Move (xDir,yDir, zDir);
 
 		Animating (yDir, zDir);
-		Debug.Log (movement);
-		Debug.Log (moveDir);
+//		Debug.Log (movement);
+//		Debug.Log (moveDir);
 //		spiderRigidbody.velocity = moveDir * speed;
 	}
 		
@@ -48,7 +52,7 @@ public class SpiderMovement : MonoBehaviour {
 	}
 
 	void Rotat(Vector3 dir){
-//		dir = dir.normalized *speed* Time.deltaTime*0.1f;
+		dir = dir.normalized *speed* Time.deltaTime*0.1f;
 		transform.Rotate (dir, Space.World);
 	}
 
