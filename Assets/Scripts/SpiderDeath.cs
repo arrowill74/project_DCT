@@ -8,10 +8,11 @@ public class SpiderDeath : MonoBehaviour {
 	private float MinimumHitPeriod = 1f;
 	private float HitCounter = 0;
 	public float CurrentHP = 10;
-
+	public GameObject explosion;
 	// Use this for initialization
 	void Start () {
 		animator = this.GetComponent<Animator> ();
+		explosion.SetActive (false);
 	}
 
 	public void Hit(float value){
@@ -21,7 +22,7 @@ public class SpiderDeath : MonoBehaviour {
 
 			animator.SetFloat ("HP",CurrentHP);
 			animator.SetTrigger ("Hit");
-
+			explosion.SetActive (true);
 			if (CurrentHP <= 0) {BuryTheBody ();}
 		}
 	}

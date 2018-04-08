@@ -10,10 +10,11 @@ GameObject:
   - component: {fileID: 400000}
   - component: {fileID: 11400000}
   - component: {fileID: 54530065322615556}
-  - component: {fileID: 114780965934262754}
   - component: {fileID: 65429621233244190}
   - component: {fileID: 65779320127680878}
-  m_Layer: 0
+  - component: {fileID: 114001886894745918}
+  - component: {fileID: 114266620312983452}
+  m_Layer: 9
   m_Name: Torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +31,7 @@ GameObject:
   - component: {fileID: 400002}
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: torche
   m_TagString: InteractionObject
   m_Icon: {fileID: 0}
@@ -47,7 +48,7 @@ GameObject:
   - component: {fileID: 400004}
   - component: {fileID: 19800000}
   - component: {fileID: 19900000}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: etincelles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +65,7 @@ GameObject:
   - component: {fileID: 400006}
   - component: {fileID: 19800002}
   - component: {fileID: 19900002}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: flam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +82,7 @@ GameObject:
   - component: {fileID: 400008}
   - component: {fileID: 19800004}
   - component: {fileID: 19900004}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: base_flam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +99,7 @@ GameObject:
   - component: {fileID: 400010}
   - component: {fileID: 19800006}
   - component: {fileID: 19900006}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fumee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400012}
   - component: {fileID: 10800000}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Torch_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +130,7 @@ Transform:
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: -0, y: -0, z: 0.17848052, w: 0.98394346}
   m_LocalPosition: {x: 14.36, y: 5.26, z: 2.08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8, y: 5, z: 8}
   m_Children:
   - {fileID: 400002}
   - {fileID: 400012}
@@ -145,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8, y: 5, z: 8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400006}
   m_Father: {fileID: 400000}
@@ -213,7 +214,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.286, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
@@ -374,7 +375,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 787349199
+  randomSeed: -190141781
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3699,7 +3700,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 2110992569
+  randomSeed: 1243105865
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7036,7 +7037,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 1557042807
+  randomSeed: -2087633506
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -10397,7 +10398,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -502653119
+  randomSeed: 1981760427
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -13898,7 +13899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4653362732093114}
   - component: {fileID: 108229700463511364}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13943,8 +13944,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.30970865, y: 2.6318722, z: 0.29529083}
-  m_Center: {x: 0.018103048, y: 1.3162575, z: 0.0135374665}
+  m_Size: {x: 0.023586687, y: 0.267332, z: 0.029876292}
+  m_Center: {x: 0.0037096103, y: 0.13398746, z: 0.0017544329}
 --- !u!65 &65779320127680878
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -13955,8 +13956,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.14760795, y: 1.5569313, z: 0.20187163}
-  m_Center: {x: 0.0067488626, y: 0.7695401, z: -0.0054382086}
+  m_Size: {x: 0.033962384, y: 0.51742715, z: 0.03201136}
+  m_Center: {x: -0.004380171, y: 0.24978825, z: 0.0007389635}
 --- !u!108 &108229700463511364
 Light:
   m_ObjectHideFlags: 1
@@ -13993,7 +13994,7 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114780965934262754
+--- !u!114 &114001886894745918
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -14001,10 +14002,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 093fd4cf2fb4fd24a98145b9ed1f5c8d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b740ec91494f5743bb1638733ca067c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 0}
+  damageValue: 15
+--- !u!114 &114266620312983452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f2a625c8c27954a9f6b944689247ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentController: {fileID: 0}
-  hideControllerModel: 1
+  hideControllerModelOnGrab: 1
   snapPositionOffset: {x: 0, y: 0, z: 0}
   snapRotationOffset: {x: 0, y: 0, z: 0}
+  Pointlight: {fileID: 1161296042563956}

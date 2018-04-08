@@ -7,7 +7,7 @@ public class RWVR_SnapToController : RWVR_InteractionObject
     public bool hideControllerModel;
     public Vector3 snapPositionOffset;
     public Vector3 snapRotationOffset;
-
+	public Vector3 snapScaleOffset;
     private Rigidbody rb;
 
     public override void Awake()

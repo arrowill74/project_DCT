@@ -6,11 +6,12 @@ public class SimpleGrab : InteractionObject
 {
     public bool hideControllerModelOnGrab;
     private Rigidbody rb;
-
+	public bool PointLight;
     public override void Awake()
     {
         base.Awake();
         rb = GetComponent<Rigidbody>();
+		PointLight = true;
     }
 
     private void AddFixedJointToController(InteractionController controller)
@@ -41,6 +42,7 @@ public class SimpleGrab : InteractionObject
         }
 
         AddFixedJointToController(controller);
+		PointLight = false;
     }
 
     public override void OnTriggerWasReleased(InteractionController controller)
@@ -56,5 +58,6 @@ public class SimpleGrab : InteractionObject
         rb.angularVelocity = controller.angularVelocity;
 
         RemoveFixedJointFromController(controller);
+		PointLight = true;
     }
 }

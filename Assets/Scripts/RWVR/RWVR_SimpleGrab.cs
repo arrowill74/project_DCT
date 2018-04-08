@@ -6,11 +6,15 @@ public class RWVR_SimpleGrab : RWVR_InteractionObject
 {
     public bool hideControllerModelOnGrab;
     private Rigidbody rb;
-
+	public Vector3 snapPositionOffset;
+	public Vector3 snapRotationOffset;
+	public GameObject Pointlight;
     public override void Awake()
     {
         base.Awake();
         rb = GetComponent<Rigidbody>();
+		Pointlight.SetActive (true);
+
     }
 
     private void AddFixedJointToController(RWVR_InteractionController controller)
@@ -41,6 +45,8 @@ public class RWVR_SimpleGrab : RWVR_InteractionObject
         }
 
         AddFixedJointToController(controller);
+		Pointlight.SetActive (false);
+
     }
 
     public override void OnTriggerWasReleased(RWVR_InteractionController controller)
@@ -56,5 +62,7 @@ public class RWVR_SimpleGrab : RWVR_InteractionObject
         rb.angularVelocity = controller.angularVelocity;
 
         RemoveFixedJointFromController(controller);
+		Pointlight.SetActive (true);
+
     }
 }
