@@ -114,6 +114,8 @@
      <Compile Include="Assets\Prefabs\torch\scene\script\TorchSlider.cs" />
      <Compile Include="Assets\Prefabs\torch\scene\script\Torchslider2.cs" />
      <Compile Include="Assets\Prefabs\torch\scripts\Torchelight.cs" />
+     <Compile Include="Assets\Scripts\Client.cs" />
+     <Compile Include="Assets\Scripts\ClientThread.cs" />
      <Compile Include="Assets\Scripts\Define.cs" />
      <Compile Include="Assets\Scripts\Example_Socket.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
@@ -124,6 +126,8 @@
      <Compile Include="Assets\Scripts\RWVR\RWVR_SimpleGrab.cs" />
      <Compile Include="Assets\Scripts\RWVR\RWVR_SnapToController.cs" />
      <Compile Include="Assets\Scripts\SceneChange.cs" />
+     <Compile Include="Assets\Scripts\Server.cs" />
+     <Compile Include="Assets\Scripts\ServerThread.cs" />
      <Compile Include="Assets\Scripts\SetParent.cs" />
      <Compile Include="Assets\Scripts\SimpleGrab.cs" />
      <Compile Include="Assets\Scripts\SingletonMonoBehaviour.cs" />
