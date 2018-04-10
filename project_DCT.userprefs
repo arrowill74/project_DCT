@@ -1,11 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameController_tombTranslation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Playerclosed.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameController_tombTranslation.cs" Line="40" Column="42" />
-      <File FileName="Assets\Scripts\TorchBurnSpider.cs" Line="16" Column="1" />
+      <File FileName="Assets\Scripts\GameController_tombTranslation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TorchBurnSpider.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\SimpleGrab.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\RWVR\RWVR_SimpleGrab.cs" Line="1" Column="1" />
+      <File FileName="Assets\CollisionListScript.cs" Line="19" Column="1" />
+      <File FileName="Assets\Playerclosed.cs" Line="12" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

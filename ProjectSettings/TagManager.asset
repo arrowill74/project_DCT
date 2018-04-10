@@ -22,8 +22,8 @@ TagManager:
   - Torch
   - Terrain
   - Player
-  - 
-  - 
+  - torchseat
+  - PlayerSensor
   - 
   - 
   - 
