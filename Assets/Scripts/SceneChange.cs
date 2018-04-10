@@ -15,6 +15,6 @@ public class SceneChange : MonoBehaviour {
 	}
 
 	void changeScene(VideoPlayer VP){
-		SceneManager.LoadScene("game1_0408");
+		SceneManager.LoadScene("game1-1");
 	}
 }

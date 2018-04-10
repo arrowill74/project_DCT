@@ -118,9 +118,12 @@
      <Compile Include="Assets\Scripts\ClientThread.cs" />
      <Compile Include="Assets\Scripts\Define.cs" />
      <Compile Include="Assets\Scripts\Example_Socket.cs" />
-     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\GameController_begin.cs" />
+     <Compile Include="Assets\Scripts\GameController_game1.cs" />
+     <Compile Include="Assets\Scripts\GameController_tombTranslation.cs" />
      <Compile Include="Assets\Scripts\InteractionController.cs" />
      <Compile Include="Assets\Scripts\InteractionObject.cs" />
+     <Compile Include="Assets\Scripts\NextScene.cs" />
      <Compile Include="Assets\Scripts\RWVR\RWVR_InteractionController.cs" />
      <Compile Include="Assets\Scripts\RWVR\RWVR_InteractionObject.cs" />
      <Compile Include="Assets\Scripts\RWVR\RWVR_SimpleGrab.cs" />
@@ -136,6 +139,7 @@
      <Compile Include="Assets\Scripts\SpiderDeath.cs" />
      <Compile Include="Assets\Scripts\SpiderMovement.cs" />
      <Compile Include="Assets\Scripts\SpiderSpawner.cs" />
+     <Compile Include="Assets\Scripts\Status.cs" />
      <Compile Include="Assets\Scripts\TorchBurnSpider.cs" />
      <Compile Include="Assets\Simple Explosion\Demo\Script (for Demo)\ExplosionControl.cs" />
      <Compile Include="Assets\Simple Explosion\Scripts\GraphicExplosion.cs" />
