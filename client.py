@@ -3,7 +3,7 @@
 import socket
  
 target_host = "127.0.0.1"
-target_port = 8080
+target_port = 8088
 file = open("Assets/Scripts/status.json", "r")
 line = file.read()
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

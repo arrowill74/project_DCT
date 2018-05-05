@@ -27,7 +27,7 @@ public class SpiderMovement : MonoBehaviour {
 			yDir = Random.Range (-1.0f, 1.0f);
 			zDir = Random.Range (-1.0f, 1.0f);
 			moveDir.Set (xDir, yDir, zDir);
-			Rotat (moveDir);
+			Rotat (moveDir, zDir);
 		}
 		Move (xDir, yDir, zDir);
 		Animating (yDir, zDir);
@@ -39,9 +39,14 @@ public class SpiderMovement : MonoBehaviour {
 		spiderRigidbody.MovePosition (transform.position + movement);
 	}
 
-	void Rotat(Vector3 dir){
+	void Rotat(Vector3 dir, float z){
 		transform.rotation = Quaternion.LookRotation (moveDir);
-		transform.Rotate (new Vector3 (0f, 0f, 90f));
+		if (z < 0) {
+			transform.Rotate (new Vector3 (0f, 0f, -90f));
+		} else {
+			transform.Rotate (new Vector3 (0f, 0f, 90f));
+		}
+
 	}
 
 	void Animating(float yDir, float zDir){

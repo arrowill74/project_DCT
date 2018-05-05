@@ -1,8 +1,8 @@
 {
-	"card_horus": 1,
 	"video_horus": 0,
 	"game1":0,
+	"game2":0,
+	"card_horus": 1,
 	"card_isis": 0,
-	"video_isis": 0,
-	"game2":0
+	"video_isis": 0
 }

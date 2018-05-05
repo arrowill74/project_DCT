@@ -9,6 +9,7 @@ TagManager:
   - Controller
   - Enemy
   - tomb
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -24,11 +25,11 @@ TagManager:
   - Player
   - torchseat
   - PlayerSensor
-  - 
-  - 
-  - 
-  - 
-  - 
+  - table
+  - bow
+  - arrow
+  - wolf
+  - tomb
   - 
   - 
   - 

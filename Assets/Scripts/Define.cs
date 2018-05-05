@@ -1,4 +1,7 @@
 ﻿public class Define {
-	public const string IP = "127.0.0.1";
-	public const int Port = 8001;
+	public const string ServerIP = "10.0.1.70";
+	public const int ServerPort = 8088;
+	public const string TargetIP = "10.0.1.13";
+	public const int TargetPort = 8000;
+
 }

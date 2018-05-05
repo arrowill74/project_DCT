@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/video_horus.unity
     guid: 5ab7a514251077d4583e4e2f59fa0eca
   - enabled: 1
-    path: Assets/Scenes/game1-1.unity
-    guid: ec768688142b98c4c8d826e5c9e55a75
+    path: Assets/Scenes/game1.unity
+    guid: 6b13d1387edfa3d41b6947174ac84744
+  - enabled: 1
+    path: Assets/Scenes/video_tombTranslation.unity
+    guid: b30bf20834a26344cbaf91a7c3c170b1
