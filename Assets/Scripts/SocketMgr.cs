@@ -19,8 +19,8 @@ public class SocketMgr {
 	public void Connect(string IP, int Port) {
 		try
 		{
-			Debug.Log(IP);
-			Debug.Log("Connect!!!");
+//			Debug.Log(IP);
+//			Debug.Log("Connect!!!");
 			_clientSocket.Connect(new IPEndPoint(IPAddress.Parse(IP), Port));
 		}
 		catch(SocketException ex)
@@ -34,7 +34,7 @@ public class SocketMgr {
 	public void SendServer(String sJson) {
 		try
 		{
-			Debug.Log(sJson);
+			Debug.Log("Send: "+sJson);
 			byte[] byteArray = System.Text.Encoding.UTF8.GetBytes(sJson);
 			SendData(byteArray);
 		}

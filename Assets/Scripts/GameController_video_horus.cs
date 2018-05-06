@@ -7,11 +7,12 @@ using System.Net.Sockets;
 using System;
 
 public class GameController_video_horus : MonoBehaviour {
-	private ServerThread st;
-	private bool isSend;//儲存是否發送訊息完畢
-	private SocketMgr SocketClient;
+	private Define Define; //IP and Port
 
-	private Define Define;
+	private SocketMgr SocketClient; //Client
+	private ServerThread st; //Server
+	private bool isSend;//儲存是否發送訊息完畢
+
 	string jsonStr;
 	Status jsonData = new Status();
 
@@ -21,25 +22,25 @@ public class GameController_video_horus : MonoBehaviour {
 		//		Client part
 		SocketClient = new SocketMgr();
 		SocketClient.Connect(Define.TargetIP, Define.TargetPort);
+		Debug.Log ("Connect to "+Define.TargetIP+":"+Define.TargetPort);
 
 		//		Server part
 		st = new ServerThread(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp, Define.ServerIP, Define.ServerPort);
-		Debug.Log (Define.ServerIP);
-
+		Debug.Log ("Server is on "+Define.ServerIP+":"+Define.ServerPort);
 		st.Listen();//讓Server socket開始監聽連線
 		st.StartConnect();//開啟Server socket
 		isSend = true;
 
+		//		Send the active scene 
 		scene = SceneManager.GetActiveScene();
-		SocketClient.SendServer("{scene:" + scene.buildIndex + " }");
-
+		SocketClient.SendServer("{'scene':" + scene.buildIndex + " }");
 	}
 
 	void Update(){
 
 		if (st.receiveMessage != null)
 		{
-			Debug.Log("Client:" + st.receiveMessage);
+			Debug.Log("Message Content: " + st.receiveMessage);
 			jsonStr = st.receiveMessage;
 
 			try {
@@ -49,18 +50,15 @@ public class GameController_video_horus : MonoBehaviour {
 				st.Send("Fail!!!");
 				st.StopConnect();
 				st = new ServerThread(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp, Define.ServerIP, Define.ServerPort);
-				Debug.Log (Define.ServerIP);
+				Debug.Log ("Server restart on "+Define.ServerIP+":"+Define.ServerPort);
 				st.Listen();//讓Server socket開始監聽連線
 				st.StartConnect();//開啟Server socket
 				isSend = true;
-				//				st.receiveMessage = null;
 			}
-
 			if (jsonData.scene != scene.buildIndex){
 				SceneManager.LoadScene(jsonData.scene);
 			}
 			st.receiveMessage = null;
-			Debug.Log(st.receiveMessage);
 		}
 		if (isSend == true)
 			StartCoroutine(delaySend());//延遲發送訊息
@@ -72,7 +70,7 @@ public class GameController_video_horus : MonoBehaviour {
 	private IEnumerator delaySend()
 	{
 		isSend = false;
-		st.Send("Accept!!!");
+		st.Send("Message Received");
 		yield return new WaitForSeconds(1);//延遲1秒後才發送
 		isSend = true;
 	}
