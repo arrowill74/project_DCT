@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - tomb
   - Ground
+  - Confetti
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - arrow
   - wolf
   - tomb
-  - 
+  - SpiderWalkable
   - 
   - 
   - 

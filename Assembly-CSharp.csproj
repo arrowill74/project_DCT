@@ -77,6 +77,10 @@
      <Compile Include="Assets\Mummy\C#\Spear_Shield.cs" />
      <Compile Include="Assets\Mummy\C#\Sword_Shield.cs" />
      <Compile Include="Assets\Mummy\C#\Weaponless.cs" />
+     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshLink.cs" />
+     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
+     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
+     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
      <Compile Include="Assets\Playerclosed.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
@@ -160,6 +164,7 @@
      <Compile Include="Assets\Scripts\SingletonMonoBehaviour.cs" />
      <Compile Include="Assets\Scripts\SnapToController.cs" />
      <Compile Include="Assets\Scripts\SocketMgr.cs" />
+     <Compile Include="Assets\Scripts\Spider_test.cs" />
      <Compile Include="Assets\Scripts\SpiderDeath.cs" />
      <Compile Include="Assets\Scripts\SpiderMovement.cs" />
      <Compile Include="Assets\Scripts\SpiderSpawner.cs" />
