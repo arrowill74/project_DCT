@@ -23,7 +23,7 @@
 using UnityEngine;
 using System.Collections;
 using System;
-
+using DG.Tweening;
 public class RealArrow : MonoBehaviour
 {
     public BoxCollider pickupCollider;
@@ -31,7 +31,7 @@ public class RealArrow : MonoBehaviour
     private Rigidbody rb;
     private bool launched;
     private bool stuckInWall;
-
+	public GameObject realArrowPrefab;
     // Use this for initialization
     private void Awake()
     {
@@ -64,6 +64,8 @@ public class RealArrow : MonoBehaviour
         stuckInWall = true;
         SetAllowPickup(true);
         transform.SetParent(other.transform);
+		Destroy(realArrowPrefab, 1.0f);
+		//realArrowPrefab.gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
