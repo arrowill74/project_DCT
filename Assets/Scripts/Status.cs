@@ -8,5 +8,5 @@ class Status{
 	public int TreasureBox;
 	public int Cans;
 	public int final;
-	public int scene;
+	public int loadScene = 10;
 }

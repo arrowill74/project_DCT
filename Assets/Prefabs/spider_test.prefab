@@ -669,7 +669,7 @@ GameObject:
   - component: {fileID: 54890650797650696}
   - component: {fileID: 136402516473907952}
   - component: {fileID: 195517371954775586}
-  - component: {fileID: 114988155416933982}
+  - component: {fileID: 114729358698651694}
   m_Layer: 8
   m_Name: spider_test
   m_TagString: Enemy
@@ -1730,7 +1730,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114988155416933982
+--- !u!114 &114729358698651694
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1738,7 +1738,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1692424882929182}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fc6393128375254b8e2355dd4c3f5e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b816794dcb29e14abbf29fd58ed52e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1

@@ -55,8 +55,8 @@ public class GameController_video_isis : MonoBehaviour {
 				st.StartConnect();//開啟Server socket
 				isSend = true;
 			}
-			if (jsonData.scene != scene.buildIndex){
-				SceneManager.LoadScene(jsonData.scene);
+			if (jsonData.loadScene != 10){
+				SceneManager.LoadScene(jsonData.loadScene);
 			}
 			st.receiveMessage = null;
 		}

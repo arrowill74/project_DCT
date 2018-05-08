@@ -58,8 +58,8 @@ public class GameController_game2 : MonoBehaviour {
 			if (jsonData.Cans == 1) { //trigger signal
 				SceneManager.LoadScene(scene.buildIndex+1); //load next scene
 			}
-			if (jsonData.scene != scene.buildIndex){
-				SceneManager.LoadScene(jsonData.scene);
+			if (jsonData.loadScene != 10){
+				SceneManager.LoadScene(jsonData.loadScene);
 			}
 			st.receiveMessage = null;
 		}
