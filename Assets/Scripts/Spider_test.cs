@@ -20,12 +20,9 @@ public class Spider_test : MonoBehaviour {
 
 	void FixedUpdate () {
 		if (Time.frameCount % 100 == 1) {
-			xDir = 1f;
-//			Random.Range (-1.0f, 1.0f);
-			yDir = 0f;
-//				Random.Range (-1.0f, 1.0f);
-			zDir = 0f;
-//			Random.Range (-1.0f, 1.0f);
+			xDir = 0f;
+			yDir = Random.Range (-1.0f, 1.0f);
+			zDir = Random.Range (-1.0f, 1.0f);
 			moveDir.Set (xDir, yDir, zDir);
 			Rotat (moveDir, zDir);
 		}
@@ -38,6 +35,7 @@ public class Spider_test : MonoBehaviour {
 		movement = movement.normalized *speed* Time.deltaTime*0.1f;
 		spiderRigidbody.MovePosition (transform.position + movement);
 	}
+
 	void Rotat(Vector3 dir, float z){
 		transform.rotation = Quaternion.LookRotation (moveDir);
 		if (z < 0) {
@@ -47,6 +45,7 @@ public class Spider_test : MonoBehaviour {
 		}
 
 	}
+
 	void Animating(float yDir, float zDir){
 		bool walking = yDir != 0f || zDir != 0f;
 		anim.SetBool ("IsWalking", walking);
