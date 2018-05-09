@@ -136,10 +136,12 @@
      <Compile Include="Assets\Scripts\Define.cs" />
      <Compile Include="Assets\Scripts\EagleMovement.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\GameController_begin.cs" />
      <Compile Include="Assets\Scripts\GameController_game1.cs" />
      <Compile Include="Assets\Scripts\GameController_game2.cs" />
      <Compile Include="Assets\Scripts\GameController_tombTranslation.cs" />
+     <Compile Include="Assets\Scripts\GameController_video_anubis.cs" />
      <Compile Include="Assets\Scripts\GameController_video_horus.cs" />
      <Compile Include="Assets\Scripts\GameController_video_isis.cs" />
      <Compile Include="Assets\Scripts\InteractionController.cs" />

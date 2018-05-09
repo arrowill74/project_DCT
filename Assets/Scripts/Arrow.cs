@@ -12,7 +12,9 @@ public class Arrow : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		other.gameObject.SendMessage ("Hit", damageValue);
+		if(other.tag == "Enemy"){
+			other.gameObject.SendMessage ("Hit", damageValue);
+		}
 
 	}
 	void Hit(float damageValue){

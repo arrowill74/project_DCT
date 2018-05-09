@@ -17,3 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/video_tombTranslation.unity
     guid: b30bf20834a26344cbaf91a7c3c170b1
+  - enabled: 1
+    path: Assets/Scenes/video_isis.unity
+    guid: 183c7d7e471e3bb448da2ea757daa5a0
+  - enabled: 1
+    path: Assets/Scenes/game2.unity
+    guid: 2a4a447d749828742bb8aa2c72a260e0
+  - enabled: 1
+    path: Assets/Scenes/video_anubis.unity
+    guid: b189d1222ce821b49827101d7082ac1d
+  - enabled: 1
+    path: Assets/Scenes/video_osiris.unity
+    guid: 3b5334201c84c19458047640508ae809

@@ -6,12 +6,13 @@ public class EagleMovement : MonoBehaviour {
 
 	// Use this for initialization
 	public float MoveSpeed;
-	public GameObject FollowTarget;
+	private GameObject player;
 	private Rigidbody rigidBody;
 	public float Speed = 7;
 
 	private Animator animator;
 	void Start () {
+		player = GameObject.FindGameObjectWithTag ("Player");
 		animator = this.GetComponent<Animator> ();
 		rigidBody = this.GetComponent<Rigidbody> ();
 
@@ -19,7 +20,7 @@ public class EagleMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Vector3 lookAt = FollowTarget.gameObject.transform.position;
+		Vector3 lookAt = player.gameObject.transform.position;
 
 		this.transform.LookAt (lookAt);
 		animator.SetBool("Armature|Fly", true);

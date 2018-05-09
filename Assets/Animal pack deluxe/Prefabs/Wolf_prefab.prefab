@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4419385929866600}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_FrontLeg_BallSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4035390921794344}
   - component: {fileID: 137147978362203020}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4435378126225876}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Neck_02SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4153166188459352}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Head_TopSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4325588350777504}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Neck_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4964982471730704}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Spine_04SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4584918570818898}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_Clavicle_01_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4939004198628150}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Spine_02SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4397628946874368}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Tongue_01_04SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4829702288640972}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_Ear_01_03SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4043675199341706}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_FrontLeg_BallSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4636372717927330}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_MAINSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4597518778020362}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_Ear_01_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4592813009757018}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_FrontLeg_KneeSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4624678140136156}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Head_JawEndSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4355257646943960}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_HindLeg_Knee1SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4305711242992956}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_ROOTSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,7 +275,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4608399206036904}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_Ear_01_02SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +290,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4507398930378374}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_FrontLeg_HipSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4299922225323350}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_HindLeg_HipSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4944145055352602}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Spine_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4648667911386170}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_HindLeg_ToeSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4711459548414128}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Tail_01_04SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,7 +365,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4970386153310400}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_HindLeg_HipSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +380,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4145008421298474}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_FrontLeg_ToeSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4837546632231926}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Spine_03SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4130805453365764}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Neck_TopSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +425,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4188342356206870}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_HindLeg_Knee2SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4317337765481724}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_FrontLeg_AnkleSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -455,7 +455,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4521998573700618}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_FrontLeg_AnkleSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -470,7 +470,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4963479278021642}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Head_JawSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +485,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4801793183331422}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Tail_01_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,7 +500,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4506280628296616}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Tongue_01_02SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +515,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4749400021754292}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_HindLeg_ToeSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +530,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4669692151889486}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_FrontLeg_ToeSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4750785132001990}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_HindLeg_Knee2SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +560,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4304267029829660}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_HindLeg_AnkleSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4899671842788166}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_FrontLeg_HipSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -590,7 +590,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4695866494769810}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_Ear_01_02SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +605,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4748595633866500}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Tongue_01_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -620,7 +620,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4964602797451024}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_HindLeg_AnkleSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -635,7 +635,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4276150977009870}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Spine_TopSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4715467479260050}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Tongue_01_03SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -665,7 +665,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4529625979327302}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_HindLeg_BallSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,9 +681,15 @@ GameObject:
   m_Component:
   - component: {fileID: 4913353921665142}
   - component: {fileID: 95109918701140282}
-  m_Layer: 0
+  - component: {fileID: 54599524693049414}
+  - component: {fileID: 135286109778939158}
+  - component: {fileID: 136926088240997384}
+  - component: {fileID: 195641582475588454}
+  - component: {fileID: 114476240615236484}
+  - component: {fileID: 114804104572099784}
+  m_Layer: 17
   m_Name: Wolf_prefab
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -696,7 +702,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4802501592517178}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Tail_01_02SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -711,7 +717,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4533147070057406}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_HindLeg_BallSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -726,7 +732,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4499131359745030}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Tail_01_03SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -741,7 +747,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4944921102829482}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_FrontLeg_KneeSHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -756,7 +762,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4097056308029634}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_Tail_01_05SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -771,7 +777,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4994641688315954}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_Ear_01_03SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -786,7 +792,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4439567129195606}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_Clavicle_01_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -801,7 +807,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4187860082434972}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_r_Ear_01_01SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -816,7 +822,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4732146923840736}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Wolf_l_HindLeg_Knee1SHJnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1457,15 +1463,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1817446995028838}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.9999221, z: -0, w: -0.012489069}
+  m_LocalPosition: {x: 424, y: 0.265, z: 359.4}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_Children:
   - {fileID: 4636372717927330}
   - {fileID: 4035390921794344}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 181.43098, z: 0}
 --- !u!4 &4939004198628150
 Transform:
   m_ObjectHideFlags: 1
@@ -1578,6 +1584,21 @@ Transform:
   m_Father: {fileID: 4608399206036904}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54599524693049414
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817446995028838}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: Infinity
+  m_AngularDrag: Infinity
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 0
 --- !u!95 &95109918701140282
 Animator:
   serializedVersion: 3
@@ -1587,7 +1608,7 @@ Animator:
   m_GameObject: {fileID: 1817446995028838}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 5a65f3013be671d42b373a04733cc760, type: 3}
-  m_Controller: {fileID: 9100000, guid: a2f1fec9538c33449aa42f390ad43dc4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 54effd3c8c1935340b1673b9c0ada349, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1595,6 +1616,54 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114476240615236484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817446995028838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702bb3ded783b4e47b7298b45554597f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114804104572099784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817446995028838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb8f08f4d44aed469e727801b3eaac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentHP: 10
+--- !u!135 &135286109778939158
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817446995028838}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.4292361
+  m_Center: {x: -0.021454196, y: 0.5, z: 0.07513369}
+--- !u!136 &136926088240997384
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817446995028838}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.19471198
+  m_Height: 1.4586583
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.64, z: 0.20961742}
 --- !u!137 &137147978362203020
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1691,3 +1760,24 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.004586689, y: 0.54872423, z: 0.17016014}
     m_Extent: {x: 0.20984915, y: 0.57486314, z: 0.84898067}
   m_DirtyAABB: 0
+--- !u!195 &195641582475588454
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817446995028838}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.8
+  m_Speed: 3
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 1.3
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

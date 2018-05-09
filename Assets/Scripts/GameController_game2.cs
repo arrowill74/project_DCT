@@ -7,6 +7,10 @@ using System.Net.Sockets;
 using System;
 
 public class GameController_game2 : MonoBehaviour {
+	public GameObject Spawner1;
+	public GameObject Spawner2;
+//	public GameObject Spawner3;
+//	public GameObject Spawner4;
 	private Define Define; //IP and Port
 
 	private SocketMgr SocketClient; //Client
@@ -17,6 +21,7 @@ public class GameController_game2 : MonoBehaviour {
 	Status jsonData = new Status();
 
 	private Scene scene;
+	private int EnemyAmount;
 
 	void Start () {
 		//		Client part
@@ -55,6 +60,10 @@ public class GameController_game2 : MonoBehaviour {
 				st.StartConnect();//開啟Server socket
 				isSend = true;
 			}
+			if (jsonData.TreasureBox == 1) {
+				GameObject.Destroy(Spawner1);
+				GameObject.Destroy(Spawner2);
+			}
 			if (jsonData.Cans == 1) { //trigger signal
 				SceneManager.LoadScene(scene.buildIndex+1); //load next scene
 			}
@@ -67,9 +76,14 @@ public class GameController_game2 : MonoBehaviour {
 			StartCoroutine(delaySend());//延遲發送訊息
 
 		st.Receive();
+
+		EnemyAmount = GameObject.FindGameObjectsWithTag ("Enemy").Length;
+		Debug.Log (EnemyAmount);
+		if (EnemyAmount == 0) {
+			SocketClient.SendServer("{'OrgansCabinet':1}");
+		}
 	}
-
-
+		
 	private IEnumerator delaySend()
 	{
 		isSend = false;
