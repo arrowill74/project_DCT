@@ -1,12 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameController_video_anubis.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Monster.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameController_video_horus.cs" Line="20" Column="2" />
+      <File FileName="Assets\Scripts\GameController_video_horus.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\GameController_game1.cs" Line="58" Column="22" />
       <File FileName="Assets\Scripts\GameController_tombTranslation.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\GameController_video_anubis.cs" Line="54" Column="34" />
       <File FileName="Assets\Scripts\GameController_begin.cs" Line="63" Column="5" />
+      <File FileName="Assets\Scripts\Monster.cs" Line="40" Column="24" />
+      <File FileName="Assets\Scripts\EnemySpawner.cs" Line="18" Column="50" />
+      <File FileName="Assets\Scripts\GameController_game2.cs" Line="81" Column="1" />
+      <File FileName="Assets\Scripts\SpiderSpawner.cs" Line="24" Column="93" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

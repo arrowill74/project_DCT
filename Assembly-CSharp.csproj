@@ -69,6 +69,7 @@
      <Compile Include="Assets\Killitself.cs" />
      <Compile Include="Assets\KY_effects\Script\ConGUI.cs" />
      <Compile Include="Assets\KY_effects\Script\Lighting.cs" />
+     <Compile Include="Assets\Mking\mScripts\MKdemoCtrl.cs" />
      <Compile Include="Assets\Mummy\C#\Axe.cs" />
      <Compile Include="Assets\Mummy\C#\BaseAnimController.cs" />
      <Compile Include="Assets\Mummy\C#\CameraController.cs" />
@@ -321,6 +322,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+     <None Include="Assets\Mking\mLD3DShaders\LD3D_SpecularEmissive.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
      <None Include="Assets\Mummy\Materials\myStandart.shader" />
      <None Include="Assets\Prefabs\torch\readme.txt" />
@@ -341,6 +343,7 @@
      <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
      <None Include="Assets\Models\Wolf Rigged and Game Ready\Readme.txt" />
+     <None Include="Assets\Mking\mLD3DShaders\LD3D_Specular.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
      <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />

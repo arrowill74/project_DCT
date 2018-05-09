@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour {
 	public GameObject MonsterCandidate;
 	public List<Transform> SpawnPoint;
-	public float SpawnMonsterTime = 10;
+	public float SpawnMonsterTime = 1;
 	private float spwanCounter = 0;
 
 	// Update is called once per frame
@@ -16,9 +16,7 @@ public class EnemySpawner : MonoBehaviour {
 			spwanCounter = 0;
 
 			GameObject newMonster = GameObject.Instantiate (MonsterCandidate);
-			if (newMonster != null) {
-				newMonster.transform.position = SpawnPoint [Random.Range (0, SpawnPoint.Count)].position;
-			}
+			newMonster.transform.position = SpawnPoint [Random.Range (0, SpawnPoint.Count)].position;
 		}
 
 	}
