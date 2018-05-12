@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 367527345}
   - component: {fileID: 367527344}
+  - component: {fileID: 367527346}
   m_Layer: 0
   m_Name: Video Player
   m_TagString: Untagged
@@ -139,12 +140,12 @@ VideoPlayer:
   m_VideoClip: {fileID: 32900000, guid: d41d59c3947bbdf4996f0965b252c51d, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
+  m_TargetCamera: {fileID: 2038818032}
   m_TargetTexture: {fileID: 0}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 2
+  m_RenderMode: 0
   m_AspectRatio: 2
   m_DataSource: 0
   m_PlaybackSpeed: 1
@@ -173,6 +174,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &367527346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 367527343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77bca78817c14b74f9e39ed7efd41e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1812004344
 GameObject:
   m_ObjectHideFlags: 0

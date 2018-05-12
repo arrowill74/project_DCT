@@ -55,7 +55,7 @@ public class GameController_video_anubis : MonoBehaviour {
 				st.StartConnect();//開啟Server socket
 				isSend = true;
 			}
-			if (jsonData.final == 1) { //trigger signal
+			if (jsonData.Final == 1) { //trigger signal
 				SceneManager.LoadScene(scene.buildIndex+1); //load next scene
 			}
 			if (jsonData.loadScene != 10){

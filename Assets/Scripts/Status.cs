@@ -2,11 +2,11 @@
 
 class Status{
 	//Arduino
-	public int horus;
+	public int Horus;
 	public int Stele;
-	public int isis;
+	public int Isis;
 	public int TreasureBox;
 	public int Cans;
-	public int final;
+	public int Final;
 	public int loadScene = 10;
 }

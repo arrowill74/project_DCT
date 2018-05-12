@@ -9,13 +9,14 @@ using System;
 public class GameController_game2 : MonoBehaviour {
 	public GameObject Spawner1;
 	public GameObject Spawner2;
-//	public GameObject Spawner3;
-//	public GameObject Spawner4;
+	public GameObject Spawner3;
+	public GameObject Spawner4;
 	private Define Define; //IP and Port
 
 	private SocketMgr SocketClient; //Client
 	private ServerThread st; //Server
 	private bool isSend;//儲存是否發送訊息完畢
+	private bool clear = false;
 
 	string jsonStr;
 	Status jsonData = new Status();
@@ -63,6 +64,8 @@ public class GameController_game2 : MonoBehaviour {
 			if (jsonData.TreasureBox == 1) {
 				GameObject.Destroy(Spawner1);
 				GameObject.Destroy(Spawner2);
+				GameObject.Destroy(Spawner3);
+				GameObject.Destroy(Spawner4);
 			}
 			if (jsonData.Cans == 1) { //trigger signal
 				SceneManager.LoadScene(scene.buildIndex+1); //load next scene
@@ -79,8 +82,9 @@ public class GameController_game2 : MonoBehaviour {
 
 		EnemyAmount = GameObject.FindGameObjectsWithTag ("Enemy").Length;
 		Debug.Log (EnemyAmount);
-		if (EnemyAmount == 0) {
+		if (EnemyAmount == 0 && !clear) {
 			SocketClient.SendServer("{'OrgansCabinet':1}");
+			clear = true;
 		}
 	}
 		

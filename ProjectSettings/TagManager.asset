@@ -29,7 +29,7 @@ TagManager:
   - table
   - bow
   - arrow
-  - wolf
+  - Enemy
   - tomb
   - SpiderWalkable
   - Environment

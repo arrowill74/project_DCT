@@ -1464,7 +1464,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1817446995028838}
   m_LocalRotation: {x: -0, y: 0.9999221, z: -0, w: -0.012489069}
-  m_LocalPosition: {x: 424, y: 0.265, z: 359.4}
+  m_LocalPosition: {x: 421.1, y: 0.051, z: 360.1}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_Children:
   - {fileID: 4636372717927330}
@@ -1597,7 +1597,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 84
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!95 &95109918701140282
 Animator:
@@ -1639,6 +1639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentHP: 10
+  organ: {fileID: 1005060462160204, guid: f14c96b3307ee5a4da74e240cae6e630, type: 2}
 --- !u!135 &135286109778939158
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -1768,7 +1769,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1817446995028838}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.8
+  m_Radius: 0.5
   m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50

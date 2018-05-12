@@ -2,7 +2,7 @@ print('server start...')
 if __name__ == '__main__':  
     import socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.bind(('127.0.0.1', 8000))  
+    sock.bind(('0.0.0.0', 8088))  
     sock.listen(5)
     while True:  
         connection,address = sock.accept()

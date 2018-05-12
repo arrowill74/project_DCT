@@ -37,7 +37,8 @@ class ServerThread
 	{
 		//伺服器本身的IP和Port
 		serverSocket.Bind(new IPEndPoint(IPAddress.Parse(internet.ip), internet.port));
-		serverSocket.Listen(1);//最多一次接受多少人連線
+		serverSocket.Listen(10);//最多一次接受多少人連線
+		Debug.Log("Listen");
 	}
 
 	//開始連線
@@ -47,6 +48,8 @@ class ServerThread
 		threadConnect = new Thread(Accept);
 		threadConnect.IsBackground = true;//設定為背景執行續，當程式關閉時會自動結束
 		threadConnect.Start();
+		Debug.Log(clientSocket);
+
 	}
 
 	//停止連線
@@ -54,11 +57,12 @@ class ServerThread
 	{
 		try
 		{
+			Debug.Log ("Stop");
 			clientSocket.Close();
 		}
-		catch (Exception)
+		catch (Exception e)
 		{
-
+			Debug.Log(e);
 		}
 	}
 
@@ -93,9 +97,9 @@ class ServerThread
 			//連線成功後，若是不想再接受其他連線，可以關閉serverSocket
 			serverSocket.Close();
 		}
-		catch (Exception)
+		catch (Exception e)
 		{
-
+			Debug.Log(e);
 		}
 	}
 
