@@ -54,7 +54,6 @@ GameObject:
   - component: {fileID: 136234941656761314}
   - component: {fileID: 135660969631256048}
   - component: {fileID: 114326327022788172}
-  - component: {fileID: 195361613665493970}
   - component: {fileID: 114399150188340364}
   m_Layer: 17
   m_Name: Eagle
@@ -435,7 +434,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1147236193416698}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 423.6, y: 0.2, z: 359}
+  m_LocalPosition: {x: 459.66, y: 48.7, z: 477.51}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 4379371537841286}
@@ -641,8 +640,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06d8a2e2719c8474bbdd78686a43ebbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 9
-  Speed: 7
+  MoveSpeed: 15
+  Speed: 15
 --- !u!114 &114399150188340364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -739,24 +738,3 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0010347944, y: 0.016756475, z: -0.01827906}
     m_Extent: {x: 0.05388329, y: 0.03849115, z: 0.03174287}
   m_DirtyAABB: 0
---- !u!195 &195361613665493970
-NavMeshAgent:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1147236193416698}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 1.3
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 1
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4

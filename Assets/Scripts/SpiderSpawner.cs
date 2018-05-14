@@ -23,6 +23,7 @@ public class SpiderSpawner : MonoBehaviour {
 			GameObject newMonster = GameObject.Instantiate (MonsterCandidate);
 			newMonster.transform.position = SpawnPoint [Random.Range (0, SpawnPoint.Count)].position;
 			UpdateNavMesh ();
+
 		}
 
 	}

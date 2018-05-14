@@ -30,9 +30,9 @@ public class SpiderDeath : MonoBehaviour {
 	void BuryTheBody(){
 		this.GetComponent<Rigidbody> ().useGravity = false;
 		this.GetComponent<Collider> ().enabled = false;
-		this.transform.DOMoveY (-0.8f, 1f).SetRelative(true).SetDelay(1).OnComplete (()=>
+		this.transform.DOMoveY (-0.8f, 1f).SetRelative(true).SetDelay(0.5f).OnComplete (()=>
 			{
-				this.transform.DOMoveY (-0.8f, 1f).SetRelative(true).SetDelay(3).OnComplete(()=>
+				this.transform.DOMoveY (-0.8f, 1f).SetRelative(true).SetDelay(0).OnComplete(()=>
 					{
 						GameObject.Destroy(this.gameObject);
 					});

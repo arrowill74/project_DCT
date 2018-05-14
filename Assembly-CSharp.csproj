@@ -62,10 +62,6 @@
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
-     <Compile Include="Assets\Fx Explosion Pack\Script\csDemoScenceControl.cs" />
-     <Compile Include="Assets\Fx Explosion Pack\Script\csLightControl.cs" />
-     <Compile Include="Assets\Fx Explosion Pack\Script\csMouseOrbit.cs" />
-     <Compile Include="Assets\Fx Explosion Pack\Script\DestroyEffect.cs" />
      <Compile Include="Assets\Killitself.cs" />
      <Compile Include="Assets\KY_effects\Script\ConGUI.cs" />
      <Compile Include="Assets\KY_effects\Script\Lighting.cs" />
