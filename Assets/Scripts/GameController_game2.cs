@@ -5,18 +5,23 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.Sockets;
 using System;
+using DG.Tweening;
 
 public class GameController_game2 : MonoBehaviour {
 	public GameObject Spawner1;
 	public GameObject Spawner2;
 	public GameObject Spawner3;
 	public GameObject Spawner4;
+	public GameObject Gate1;
+	public GameObject dust;
+	private float second;
 	private Define Define; //IP and Port
 
 	private SocketMgr SocketClient; //Client
 	private ServerThread st; //Server
 	private bool isSend;//儲存是否發送訊息完畢
 	private bool clear = false;
+	private bool gateCollapse = false;
 
 	string jsonStr;
 	Status jsonData = new Status();
@@ -43,7 +48,16 @@ public class GameController_game2 : MonoBehaviour {
 	}
 
 	void Update(){
-
+		second += Time.deltaTime;
+		Debug.Log (second);
+		if (second > 10 && !gateCollapse) {
+			GameObject.Destroy(Spawner1);
+			GameObject.Destroy(Spawner2);
+			GameObject.Destroy(Spawner3);
+			GameObject.Destroy(Spawner4);
+			gateCollapsing ();
+			gateCollapse = true;
+		}
 		if (st.receiveMessage != null)
 		{
 			Debug.Log("Message Content: " + st.receiveMessage);
@@ -61,6 +75,7 @@ public class GameController_game2 : MonoBehaviour {
 				st.StartConnect();//開啟Server socket
 				isSend = true;
 			}
+
 			if (jsonData.TreasureBox == 1) {
 				GameObject.Destroy(Spawner1);
 				GameObject.Destroy(Spawner2);
@@ -86,6 +101,17 @@ public class GameController_game2 : MonoBehaviour {
 			SocketClient.SendServer("{'OrgansCabinet':1}");
 			clear = true;
 		}
+	}
+
+	void gateCollapsing(){
+		Gate1.transform.DOMoveY (0f, 0f).SetRelative(true).SetDelay(0).OnComplete (()=>
+			{
+				Gate1.transform.DOMoveY (-2f, 0f).SetRelative(true).SetDelay(0).OnComplete(()=>
+					{
+						GameObject newDust = GameObject.Instantiate (dust);
+						newDust.transform.position = Gate1.transform.position;
+					});
+			});
 	}
 		
 	private IEnumerator delaySend()

@@ -211,4 +211,8 @@ GfxPluginVRWorks: Shader loaded: type GS_MRS key 1089534795 size 6636
 GfxPluginVRWorks: Shader loaded: type GS_MRS key 3341804020 size 6532
 GfxPluginVRWorks: Shader loaded: type GS_MRS key 955983514 size 6324
 GfxPluginVRWorks: Shader loaded: type GS_MRS key 2128883426 size 6196
-GfxPluginVRWorks: Shader loaded: type GS_MRS key 2128883426 size 6196
+GfxPluginVRWorks: Shader loaded: type GS_MRS key 3576429863 size 5992
+GfxPluginVRWorks: Shader loaded: type GS_MRS key 2312182201 size 6544
+GfxPluginVRWorks: Shader loaded: type GS_MRS key 3129963930 size 6544
+GfxPluginVRWorks: Shader loaded: type GS_MRS key 3980433188 size 6116
+GfxPluginVRWorks: Shader loaded: type GS_MRS key 3980433188 size 6116

@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour {
 	public List<Transform> SpawnPoint;
 	public float SpawnMonsterTime = 1;
 	private float spwanCounter = 0;
-	public GameObject Light;
+//	public GameObject Light;
 	// Update is called once per frame
 	void Update () {
 		spwanCounter += Time.deltaTime;
@@ -16,7 +16,7 @@ public class EnemySpawner : MonoBehaviour {
 			spwanCounter = 0;
 
 			GameObject newMonster = GameObject.Instantiate (MonsterCandidate);
-			GameObject newlight = GameObject.Instantiate (Light);
+//			GameObject newlight = GameObject.Instantiate (Light);
 			newMonster.transform.position = SpawnPoint [Random.Range (0, SpawnPoint.Count)].position;
 
 		}
