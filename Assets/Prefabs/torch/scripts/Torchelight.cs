@@ -10,7 +10,7 @@ public class Torchelight : MonoBehaviour {
 	public GameObject Fumee;
 	public float MaxLightIntensity;
 	public float IntensityLight;
-	
+	private Vector3 pos;
 
 	void Start () {
 		TorchLight.GetComponent<Light>().intensity=IntensityLight;
@@ -18,6 +18,7 @@ public class Torchelight : MonoBehaviour {
 		BaseFlame.GetComponent<ParticleSystem>().emissionRate=IntensityLight*15f;	
 		Etincelles.GetComponent<ParticleSystem>().emissionRate=IntensityLight*7f;
 		Fumee.GetComponent<ParticleSystem>().emissionRate=IntensityLight*12f;
+		pos = this.gameObject.transform.position;
 	}
 	
 
@@ -33,6 +34,11 @@ public class Torchelight : MonoBehaviour {
 		BaseFlame.GetComponent<ParticleSystem>().emissionRate=IntensityLight*15f;
 		Etincelles.GetComponent<ParticleSystem>().emissionRate=IntensityLight*7f;
 		Fumee.GetComponent<ParticleSystem>().emissionRate=IntensityLight*12f;		
-
+		if (this.gameObject.transform.position.y < -10) {
+			resetPosition ();
+		}
+	}
+	void resetPosition(){
+		this.gameObject.transform.position = pos;
 	}
 }

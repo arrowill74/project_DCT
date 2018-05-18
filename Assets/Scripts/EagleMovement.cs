@@ -5,10 +5,9 @@ using UnityEngine;
 public class EagleMovement : MonoBehaviour {
 
 	// Use this for initialization
-	public float MoveSpeed;
 	private GameObject player;
 	private Rigidbody rigidBody;
-	public float Speed = 7;
+	public float Speed;
 
 	private Animator animator;
 	void Start () {

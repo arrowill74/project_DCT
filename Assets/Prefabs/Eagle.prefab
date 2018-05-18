@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4853316104551712}
   - component: {fileID: 198679721460390370}
   - component: {fileID: 199412996923326878}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: PlasmaExplosionEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4940950231445126}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4536652460556234}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,8 +71,8 @@ GameObject:
   - component: {fileID: 136234941656761314}
   - component: {fileID: 135660969631256048}
   - component: {fileID: 114326327022788172}
-  - component: {fileID: 114399150188340364}
-  m_Layer: 17
+  - component: {fileID: 114585260292492190}
+  m_Layer: 18
   m_Name: Eagle
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4142870496124350}
   - component: {fileID: 198812728009411802}
   - component: {fileID: 199513791653009544}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Lightning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4546089739507666}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4696469366930296}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4317679945182830}
   - component: {fileID: 137033028589002784}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Flugel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4069620919896424}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 4112437963623574}
   - component: {fileID: 198794577998530018}
   - component: {fileID: 199488693045154962}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,7 +182,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4617068398241090}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4840030330823320}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.004_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4139106521927620}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4731225239683904}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4716876222323482}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,7 +257,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4379371537841286}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4227016259026220}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4907034558935016}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.007_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4297203721304990}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4304645074925890}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.011_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4346735774772638}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.002_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4535252397898616}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.009_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -362,7 +362,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4288856813279126}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: Bone.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -511,7 +511,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1147236193416698}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 459.66, y: 48.7, z: 477.51}
+  m_LocalPosition: {x: 459.66, y: 48.7, z: 471.78}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 4379371537841286}
@@ -733,9 +733,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06d8a2e2719c8474bbdd78686a43ebbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 15
-  Speed: 15
---- !u!114 &114399150188340364
+  Speed: 7
+--- !u!114 &114585260292492190
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -743,7 +742,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1147236193416698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efb8f08f4d44aed469e727801b3eaac3, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ae55458101b6814c80d29b898958f07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentHP: 10

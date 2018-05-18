@@ -28,9 +28,11 @@ public class RWVR_SimpleGrab : RWVR_InteractionObject
 {
     public bool hideControllerModelOnGrab;
     private Rigidbody rb;
+	public GameObject TorchLight;
 
     public override void Awake()
-    {
+    {	
+		
         base.Awake();
         rb = GetComponent<Rigidbody>();
     }
@@ -69,6 +71,7 @@ public class RWVR_SimpleGrab : RWVR_InteractionObject
         fx.breakForce = 20000;
         fx.breakTorque = 20000;
         fx.connectedBody = rb;
+		TorchLight.GetComponent<Light> ().range = 2.5f;
     }
 
     private void RemoveFixedJointFromController(RWVR_InteractionController controller)

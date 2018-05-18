@@ -23,9 +23,9 @@ public class SpiderMovement : MonoBehaviour {
 
 	void FixedUpdate () {
 		if (Time.frameCount % 100 == 1) {
-			xDir = 0f;
+			xDir = Random.Range (-1.0f, 1.0f);
 			yDir = Random.Range (-1.0f, 1.0f);
-			zDir = Random.Range (-1.0f, 1.0f);
+			zDir = 0f;
 			moveDir.Set (xDir, yDir, zDir);
 			Rotat (moveDir, zDir);
 		}

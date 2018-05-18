@@ -15,7 +15,6 @@ public class Arrow : MonoBehaviour {
 		if(other.tag == "Enemy"){
 			other.gameObject.SendMessage ("Hit", damageValue);
 		}
-
 	}
 	void Hit(float damageValue){
 	}
